@@ -1,0 +1,47 @@
+PODS:
+  - arkit_plugin (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - GLTFSceneKit (0.3.0)
+  - path_provider (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - arkit_plugin (from `.symlinks/plugins/arkit_plugin/ios`)
+  - Flutter (from `Flutter`)
+  - GLTFSceneKit
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GLTFSceneKit
+
+EXTERNAL SOURCES:
+  arkit_plugin:
+    :path: ".symlinks/plugins/arkit_plugin/ios"
+  Flutter:
+    :path: Flutter
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+
+SPEC CHECKSUMS:
+  arkit_plugin: 3e42571e8be84adabb8a178bd51c22fa981e16bd
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  GLTFSceneKit: d1b437c514ba2aed5555afb0fddd64e030612d57
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+
+PODFILE CHECKSUM: 63ef20bb5145d2b695226ed3eb43b377da001316
+
+COCOAPODS: 1.11.0.beta.2

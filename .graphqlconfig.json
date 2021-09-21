@@ -1,0 +1,15 @@
+{
+    "schemaPath": "./lib/app/data/graphql/schema.graphql",
+    "extensions": {
+
+        "endpoints": {
+
+            "Your Hasura GraphQL Engine Endpoint": {
+                "url": "https://interiar.herokuapp.com/graphql/",
+                "headers": {
+                    "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzE5OTkxMTIsIm93bmVyIjoic2FsZW9yIiwiZXhwIjoxNjMxOTk5NDEyLCJ0b2tlbiI6ImFTODI3QXNVWXZjdyIsImVtYWlsIjoiYWxleGFuZGVyLmhpYW1jaGFuQGdtYWlsLmNvbSIsInR5cGUiOiJhY2Nlc3MiLCJ1c2VyX2lkIjoiVlhObGNqb3giLCJpc19zdGFmZiI6dHJ1ZX0.wFDagr-YzCGEvXALIiGp8lTfip_T2q_A3ikf75uS8Dg"
+                }
+            }
+        }
+    }
+}

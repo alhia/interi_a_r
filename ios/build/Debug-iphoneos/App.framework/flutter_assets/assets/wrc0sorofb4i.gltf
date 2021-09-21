@@ -1,0 +1,204 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "Generic_Models_mesh_accessor": {
+            "bufferView": "Generic_Models_mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 492,
+            "type": "VEC3",
+            "max": [
+                735.0,
+                1470.0,
+                195.0
+            ],
+            "min": [
+                -735.0,
+                0.0,
+                -195.0
+            ]
+        },
+        "Generic_Models_mesh_accessor_0": {
+            "bufferView": "Generic_Models_mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 492,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        "Generic_Models_mesh_accessor_1": {
+            "bufferView": "Generic_Models_mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 492,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        "Generic_Models_mesh_accessor_2": {
+            "bufferView": "Generic_Models_mesh_view_2",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 744,
+            "type": "SCALAR",
+            "max": [
+                491.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/wrc0sorofb4i/wrc0sorofb4i": {
+            "byteLength": 17232,
+            "type": "arraybuffer",
+            "uri": "../../download/wrc0sorofb4i/wrc0sorofb4i.bin"
+        }
+    },
+    "bufferViews": {
+        "Generic_Models_mesh_view": {
+            "buffer": "../../download/wrc0sorofb4i/wrc0sorofb4i",
+            "byteOffset": 0,
+            "byteLength": 5904,
+            "target": 34962
+        },
+        "Generic_Models_mesh_view_0": {
+            "buffer": "../../download/wrc0sorofb4i/wrc0sorofb4i",
+            "byteOffset": 5904,
+            "byteLength": 5904,
+            "target": 34962
+        },
+        "Generic_Models_mesh_view_1": {
+            "buffer": "../../download/wrc0sorofb4i/wrc0sorofb4i",
+            "byteOffset": 11808,
+            "byteLength": 3936,
+            "target": 34962
+        },
+        "Generic_Models_mesh_view_2": {
+            "buffer": "../../download/wrc0sorofb4i/wrc0sorofb4i",
+            "byteOffset": 15744,
+            "byteLength": 1488,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        },
+        "01___Default": {
+            "values": {
+                "ambient": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "diffuse": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "specular": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "Generic_Models_mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "01___Default",
+                    "indices": "Generic_Models_mesh_accessor_2",
+                    "attributes": {
+                        "POSITION": "Generic_Models_mesh_accessor",
+                        "NORMAL": "Generic_Models_mesh_accessor_0",
+                        "TEXCOORD_0": "Generic_Models_mesh_accessor_1"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "wrc0sorofb4i.obj": {
+            "children": [
+                "Generic_Models"
+            ]
+        },
+        "Generic_Models": {
+            "meshes": [
+                "Generic_Models_mesh"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "wrc0sorofb4i.obj"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}

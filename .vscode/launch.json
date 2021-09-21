@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "interiAR",
+            "request": "launch",
+            "type": "dart",
+            "program": "${workspaceFolder}/lib/main.dart",
+            "flutterMode": "debug",
+                "args": [
+                    "--dart-define",
+                    "SUPABASE_URL=https://jeuistuknvbctfmtellj.supabase.co",
+                    "--dart-define",
+                    "SUPABASE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMDI0NDMwMiwiZXhwIjoxOTQ1ODIwMzAyfQ.6_o0h7bwW1KN7Tg7fvoZaC5hY50VmlLSF4PgXKaJ5v0"
+                ],
+        },
+
+        {
+            "name": "interiAR (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Dart: Run all Tests",
+            "request": "launch",
+            "type": "dart",
+            "program": "./test/",
+                    "args": [
+                        "--dart-define",
+                        "ENCRYPTION_KEY=t7Aztue/zMpt+Md0XayO55P/iicp3nxlir0/ZurY0cQ=",
+                        "--coverage",
+                    ],
+        }
+    ]
+}

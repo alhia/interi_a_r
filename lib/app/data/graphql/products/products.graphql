@@ -1,0 +1,140 @@
+
+
+query Products ($filter: ProductFilterInput, $sortBy: ProductOrder,
+$channel: String,
+$before: String,
+$after: String,
+$first: Int,
+$last: Int){
+  products(filter: $filter,sortBy: $sortBy, channel: $channel, before: $before, after:$after,first: $first, last: $last) {
+    totalCount
+    edges {
+      node {
+        channelListings {
+          channel {
+            name
+          }
+        }
+        variants {
+          product {
+            attributes {
+              attribute {
+                choices {
+                  totalCount
+                }
+              }
+            }
+          }
+          name
+        }
+        media {
+          url
+        }
+
+        name
+      }
+    }
+  }
+}
+query Product($id: ID!) {
+  product(id: $id) {
+    name
+    channelListings {
+      channel {
+        slug
+      }
+    }
+    variants {
+      id
+      media {
+        url
+      }
+      name
+      pricing {
+        price {
+          net {
+            currency
+            amount
+          }
+        }
+      }
+    }
+    description
+    media {
+      url
+    }
+    pricing {
+      priceRangeLocalCurrency {
+        start {
+          net {
+            currency
+            amount
+          }
+        }
+      }
+    }
+  }
+}
+query Explore {
+  sales(last: 1) {
+    edges {
+      node {
+        name
+        id
+      }
+    }
+  }
+
+  products(first: 100) {
+    edges {
+      node {
+        channelListings {
+          channel {
+            slug
+          }
+        }
+        media {
+          url
+        }
+        variants {
+          id
+        }
+        description
+        id
+        name
+      }
+    }
+  }
+}
+
+query ARView {
+  sales(last: 1) {
+    edges {
+      node {
+        name
+        id
+      }
+    }
+  }
+
+  products(first: 100) {
+    edges {
+      node {
+        channelListings {
+          channel {
+            slug
+          }
+        }
+        media {
+          url
+        }
+        variants {
+          id
+        }
+        description
+        id
+        name
+      }
+    }
+  }
+}

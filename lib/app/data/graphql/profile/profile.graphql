@@ -1,0 +1,10 @@
+query Profile {
+  me {
+    firstName
+    lastName
+    email
+    avatar {
+      url
+    }
+  }
+}

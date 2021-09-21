@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "671868da2b7ed83b46b8da9bdda568d8"
+build_time: [1631468906, 535278000]
+inputs:
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ViewController+ARSCNViewDelegate.swift": [1631468292, 785826396]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ViewController+CoachingOverlay.swift": [1631468292, 787235107]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ViewController.swift": [1631468292, 789011401]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Utilities/Utilities.swift": [1631468292, 784762520]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Virtual Objects/VirtualObject.swift": [1631468292, 789651486]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Focus Square/FocusSquare.swift": [1631468292, 581829567]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/AppDelegate.swift": [1631468292, 573470803]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/VirtualObjectInteraction.swift": [1631468292, 793421325]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Additional View Controllers/StatusViewController.swift": [1631468292, 572697052]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ARView.swift": [1631468292, 571379383]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ViewController+Actions.swift": [1631468292, 786501481]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Virtual Objects/VirtualObjectLoader.swift": [1631468292, 790164195]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Additional View Controllers/VirtualObjectSelection.swift": [1631468292, 573142136]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/Focus Square/FocusSquareSegment.swift": [1631468292, 582174067]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ARViewFactory.swift": [1631468292, 571837426]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/VirtualObjectARView.swift": [1631468292, 792326948]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ViewController+ObjectSelection.swift": [1631468292, 788117900]
+  "/Users/alexanderhiamchan/my_projects/interi_a_r/ios/Runner/ThresholdPanGesture.swift": [1631468292, 782554183]

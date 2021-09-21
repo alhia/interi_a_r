@@ -1,0 +1,26 @@
+mutation TokenCreate($email: String!, $password: String!) {
+  tokenCreate(email: $email, password: $password) {
+    token
+    refreshToken
+    csrfToken
+    user {
+      email
+    }
+    errors {
+      field
+      message
+    }
+  }
+}
+query Me {
+  me {
+    id
+    email
+    defaultBillingAddress {
+      streetAddress1
+      country {
+        country
+      }
+    }
+  }
+}

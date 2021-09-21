@@ -1,0 +1,54 @@
+// GENERATED FOR JSON TO DART MODEL
+[
+  // Useful links to work with this file:
+  // About jsonc: https://github.com/onury/jsonc
+  // Try jsonc: https://komkom.github.io
+  //
+  // To configure generator, go to Settings/Extensions/JSON To Dart Model
+  //
+  // Add your json objects here separated by commas.
+  // Note that you add class names to each object with key "__className":
+  // And avoid duplicate class names in this list for best results.
+  // FOR EXAMPLE:
+  /*
+
+	{
+		"__className": "UserPost", // <- The base class name of the object.
+		"userId": 1,
+		"id": 1, // To mark as required value, change "id" to "r@id".
+		"title": "Json To Dart Model", // To mark as a default value, change "title" to "d@title".
+		"body": "Json to Dart advanced..."
+	}
+	
+
+	*/
+  {
+    "__className": "Product",
+    "id": 1,
+    "inserted_at": "2021-08-29T17: 36: 09+00: 00",
+    "updated_at": "2021-08-29T17: 36: 09+00: 00",
+    "name": "OUTLINE STUDIO CHAIR",
+    "description": "Product description The Outline Studio Series adds new perspectives to the classic Scandinavian design sofas of the 1960's, designed in slimmed-down proportions for smaller spaces such as apartments, hotel rooms, workplaces and more. With the design taking its name from its strong outline of a sofa, the Outline Series is clean and elegant on the outside with a deep seat and soft cushioning on its inside. The Outline Series has an expression that is at once elegant yet timeless, elevated by its lines referencing architectural shapes alongside its curved armrests, giving the design a distinct appearance across various sizes and variants.",
+    "ar_file_id": 1,
+    "price": 18495,
+    "currency": null,
+    "product_images_ids": [1, 2, 3, 4],
+    "ar_file": {
+      "id": 1,
+      "inserted_at": "2021-08-29T17: 35: 02+00: 00",
+      "updated_at": "2021-08-29T17: 35: 02+00: 00",
+      "filename": "outline-series.glb",
+      "url": "https: //jeuistuknvbctfmtellj.supabase.in/storage/v1/object/sign/ar-files/outline-series.glb?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJhci1maWxlcy9vdXRsaW5lLXNlcmllcy5nbGIiLCJpYXQiOjE2MzAyNTgzNjEsImV4cCI6MTk0NTYxODM2MX0.cUYK3IHhK_qFtf1D6ewhO16wkg65C6nJ54e-GH9wd30"
+    },
+    "product_images": [
+      {
+        "id": 4,
+        "inserted_at": "2021-08-29T17:49:51+00:00",
+        "updated_at": "2021-08-29T17:49:51+00:00",
+        "filename": "Outline-chair-Cognac-Refine-front-Muuto.png",
+        "url": "https://jeuistuknvbctfmtellj.supabase.in/storage/v1/object/sign/product-images/Outline-chair-Cognac-Refine-front-Muuto.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwcm9kdWN0LWltYWdlcy9PdXRsaW5lLWNoYWlyLUNvZ25hYy1SZWZpbmUtZnJvbnQtTXV1dG8ucG5nIiwiaWF0IjoxNjMwMjU5Mzc3LCJleHAiOjE5NDU2MTkzNzd9.RevGwC6E-4uGJOvHgLuCf3b7px2evOR9lGTUO7gnUmU",
+        "product_id": 1
+      }
+    ]
+  }
+]

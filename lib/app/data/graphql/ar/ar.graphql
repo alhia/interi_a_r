@@ -1,0 +1,33 @@
+query AR {
+  checkoutLines(last: 1) {
+    edges {
+      node {
+        variant {
+          pricing {
+            price {
+              net {
+                currency
+                amount
+              }
+            }
+          }
+          product {
+            name
+
+            media {
+              url
+            }
+            attributes {
+              values {
+                file {
+                  url
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

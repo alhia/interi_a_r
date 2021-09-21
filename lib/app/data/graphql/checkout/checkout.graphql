@@ -1,0 +1,108 @@
+mutation CheckoutCreate ($input: CheckoutCreateInput!){
+  checkoutCreate(
+    input: $input
+  ) {
+    checkout {
+      id
+      token
+      totalPrice {
+        gross {
+          amount
+          currency
+        }
+      }
+      isShippingRequired
+      availableShippingMethods {
+        id
+        name
+      }
+      availableCollectionPoints {
+        id
+        name
+        clickAndCollectOption
+      }
+      availablePaymentGateways {
+        id
+        name
+        config {
+          field
+          value
+        }
+      }
+    }
+    checkoutErrors {
+      field
+      code
+    }
+  }
+}
+query CheckoutTokens {
+  me {
+      checkoutTokens
+  }
+}
+
+mutation CheckoutLinesAdd(
+  $checkoutId: ID
+  $lines: [CheckoutLineInput]!
+  $token: UUID
+) {
+  checkoutLinesAdd(checkoutId: $checkoutId, lines: $lines, token: $token) {
+    errors {
+      message
+    }
+  }
+}
+
+query Checkout {
+  checkouts(first: 1) {
+    edges {
+      node {
+        totalPrice {
+          currency
+          net {
+            currency
+            amount
+          }
+        }
+        subtotalPrice {
+          currency
+          net {
+            currency
+            amount
+          }
+        }
+        lines {
+          quantity
+          variant {
+            
+            id
+            pricing {
+              price {
+                net {
+                  currency
+                  amount
+                }
+              }
+            }
+
+            product {
+              id
+              name
+              media {
+                url
+              }
+              attributes {
+                values {
+                file {
+                  url
+                }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 
